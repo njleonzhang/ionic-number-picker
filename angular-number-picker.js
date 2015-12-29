@@ -72,8 +72,6 @@
                 restrict: 'E',
                 scope: {
                     'value': '=',
-                    'singular': '@',
-                    'plural': '@',
                     'min': '=',
                     'max': '=',
                     'step': '@',
