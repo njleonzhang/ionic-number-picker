@@ -151,7 +151,8 @@
                         }
                     }
                 },
-                    template: '<div class="row row-center rowThinPadding2 number-picker-style" style="border: #cccccc 1px solid; margin-top: 2px; margin-bottom: 2px; border-radius:4px">'+
+                    template: '<div class="row row-center number-picker-style" style="border: #cccccc 1px solid; margin-top: 2px; margin-bottom: 2px; border-radius:4px;padding: 0 !important;
+">'+
                                 '<span class="button button-small button-clear col col-30 col-center color-canDown-{{canDown}}" type="down" ng-disabled="!canDown" style="height: 34px; color:#555555; border-radius:0">-</span>' +
                                 '<input type="text" class="col-40 col col-center text-center form-control" ng-model="value" ng-blur="inputLostFocus()" style="height:34px;border-radius:0;border-bottom:0; border-top:0; border-right: #cccccc 1px solid; border-left: #cccccc 1px solid; padding: 0">' +
                                 '<span class="button button-small button-clear col col-30 col-center color-canUp-{{canUp}}" style="height: 34px; color:#555555; border-radius:0" type="up" ng-disabled="!canUp">+</span>' +
