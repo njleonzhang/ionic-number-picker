@@ -72,8 +72,8 @@
                 restrict: 'E',
                 scope: {
                     'value': '=',
-                    'min': '=',
-                    'max': '=',
+                    'min': '=?',
+                    'max': '=?',
                     'step': '@',
                     'change': '&'
                 },
