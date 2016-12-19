@@ -18,7 +18,7 @@
     var definition = function(angular) {
 
         var defaults = {
-            min: 0,
+            min: -1000000,
             max: 1000000,
             step: 1,
             timeout: 600
